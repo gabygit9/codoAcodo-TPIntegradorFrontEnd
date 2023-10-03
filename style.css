@@ -1,0 +1,88 @@
+:root{
+    --background-gray:#474748;
+    --color-green:#1fb13f;
+    --gris-oscuro:#40414b;
+    --background-verdemanzana:#84d555;
+    --bg-azul:#182f54;
+    --bg-azulClaro:#244b80;
+}
+.gris-oscuro{background-color: var(--gris-oscuro);}
+.gris{background-color: var(--background-gray);}
+.verde{color: var(--color-green);}
+.bg-verdemanzana{background-color: var(--background-verdemanzana);}
+.bg-verdemanzana:hover{background-color: var(--color-green);}
+.azul-gradiente{background-image: linear-gradient(to right, var(--bg-azul), var(--bg-azulClaro));}
+.altura{height: 15vh;}
+.fuente{font-size: 17px;}
+.brillo-img{filter: brightness(0.6);}
+.btnOrador:hover{background: #7b7979;}
+.fuente-small{font-size: 12px;}
+.w-88{width: 88%;}
+.tamano{height: 48.2vh;}
+.font{font-size: 14px;}
+.w-55{width: 55%;}
+.charla-ignite{text-decoration: underline dotted;}
+.left{padding-left: 0px;}
+@media (max-width: 991.98px) {
+    .navbar-nav{
+      display: flex;
+      flex-direction: row;
+    }
+    .tamanoResponsive{
+        height: 40.2vh;
+    }
+    .fuente8{
+      font-size: 9px;
+    }
+    .bloqueResponsive{
+        position: relative;
+        width: 60%;
+        left: 46%;
+        margin-top: -9%;
+    }
+    .p-orador{
+        text-align: center;
+    }
+}
+
+/* # Proyecto de Trabajo Práctico Integrador Front-end - Codo a Codo
+
+Este proyecto es el resultado del trabajo práctico integrador del curso de front-end de Codo a Codo. El objetivo era replicar una página principal utilizando principalmente Bootstrap 5 y CSS mínimo.
+
+## Descripción
+
+Este proyecto replica una página web principal de una conferencia llamada "Conf Bs As". La página incluye un encabezado de navegación, un carrusel de imágenes, información sobre los oradores, detalles sobre la ubicación y la fecha del evento, y un formulario de registro de oradores.
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- Bootstrap 5
+
+## Uso
+
+Puedes utilizar este proyecto como punto de partida para tu propio desarrollo web o como ejemplo de cómo utilizar Bootstrap 5 en tus proyectos. Para hacerlo, simplemente clona este repositorio y modifica el contenido según tus necesidades.
+
+## Instalación
+
+No es necesario instalar nada para ejecutar este proyecto. Solo abre el archivo `index.html` en tu navegador web.
+
+## Contribución
+
+Si deseas contribuir a este proyecto, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-caracteristica`).
+3. Haz tus cambios y realiza un commit (`git commit -m 'Añadir nueva característica'`).
+4. Sube tus cambios (`git push origin feature/nueva-caracteristica`).
+5. Abre un Pull Request.
+
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
+
+---
+
+¡Espero que este proyecto te sea útil! Si tienes alguna pregunta o necesitas ayuda adicional, no dudes en contactarme.
+
+[Enlace al proyecto en vivo](#)  <!-- Agrega el enlace cuando tengas un hosting disponible --> */
