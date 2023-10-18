@@ -21,8 +21,10 @@
 .tamano{height: 48.2vh;}
 .font{font-size: 14px;}
 .w-55{width: 55%;}
+.w-60{width: 60.4%;}
 .charla-ignite{text-decoration: underline dotted;}
 .left{padding-left: 0px;}
+.h-45{height: 45px;}
 @media (max-width: 991.98px) {
     .navbar-nav{
       display: flex;
